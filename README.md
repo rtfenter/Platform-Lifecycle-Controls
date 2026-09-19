@@ -169,7 +169,7 @@ This makes the lifecycle behavior explicit instead of requiring each connected p
 
 ## Try the State Explorer
 
-*[Interactive demo will be linked here.]*
+→ [Launch the interactive case study](https://rtfenter.github.io/B2C-Loyalty-Product-Study/#platform)
 
 The explorer uses one fictional customer with three independently owned state sources.
 
