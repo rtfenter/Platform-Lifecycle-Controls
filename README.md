@@ -1,6 +1,6 @@
 # Platform Lifecycle & Controls
 
-### One Account State, Multiple Consequences
+## One account state, multiple consequences
 
 A customer can exist across multiple products at once.
 
@@ -12,7 +12,7 @@ That creates a platform product question:
 
 ---
 
-## The Product Problem
+## The product problem
 
 A single `suspended` flag isn't enough.
 
@@ -34,7 +34,7 @@ The product needs to preserve those distinctions.
 
 ---
 
-## Three Independently Owned States
+## Three independently owned states
 
 Instead of treating the customer as simply `Active` or `Suspended`, maintain separate state facts.
 
@@ -50,7 +50,7 @@ That matters because more than one can be true at the same time.
 
 ---
 
-## The Product Decision
+## The product decision
 
 **State propagates according to its source, authority, and scope.**
 
@@ -96,7 +96,7 @@ The customer can later resume participation.
 
 ---
 
-## Authority Matters
+## Authority matters
 
 Defining the state isn't enough.
 
@@ -118,7 +118,7 @@ An upstream restoration cannot silently erase a separate loyalty restriction or 
 
 ---
 
-## Recovery ≠ Reset
+## Recovery ≠ reset
 
 This is where independent state becomes especially important.
 
@@ -150,7 +150,7 @@ If a customer pauses Loyalty, later receives an upstream restriction, and then h
 
 ---
 
-## Product Effects
+## Product effects
 
 Each state should be defined by what it actually changes.
 
@@ -167,7 +167,7 @@ This makes the lifecycle behavior explicit instead of requiring each connected p
 
 ---
 
-## Try the State Explorer
+## Try the state explorer
 
 → [Launch the interactive case study](https://rtfenter.github.io/B2C-Loyalty-Product-Study/#platform)
 
@@ -224,7 +224,7 @@ A denied attempt to clear someone else's restriction is still useful product his
 
 ---
 
-## Rules That Need to Stay Deterministic
+## Rules that need to stay deterministic
 
 | Situation | Product behavior |
 | --- | --- |
@@ -271,7 +271,7 @@ The percentage of account-state changes that produce the intended product effect
 
 ---
 
-## What I'd Validate
+## What I'd validate
 
 The state model can be logically correct while still creating confusing experiences for customers and operators.
 
